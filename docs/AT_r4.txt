@@ -1,0 +1,24 @@
+AT$GPSP=1
+AT$GPSSAV
+AT#V24CFG=3,1,1       // ON_OFF_MODE Управление пином АТ командами
+AT#V24=3,1            // ON_OFF_MODE 
+AT#DIALMODE=2
+AT#ECONLY=2
+AT#VAUX=1,1
+AT#V24CFG=0,2,1
+AT#V24CFG=2,2,1 
+AT#V24CFG=3,2,1       // Переключение пина на управление эрой
+AT#V24CFG=4,2,1 
+AT#ECALLNWTMR=120,2 
+AT#PORTCFG=0
+AT#CALLDISA=0,0
+AT+COPS=0
+AT#ISMSCFG=0
+AT#SPIEN=1
+AT#ENSIM2=1
+AT#SIMSELECT=[1/2]    // [чип/лоток]
+AT#SIMDET=1
+AT&W
+AT&P
+AT#M2MRUN=2,"era.bin"
+AT+M2M=4,10

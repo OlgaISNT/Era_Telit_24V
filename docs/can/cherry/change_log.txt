@@ -1,0 +1,14 @@
+
+Cherry_v01
+- Работа  кнопок "Vehicle Type" и "VehicleFuel Type"
+  Принимаемые значения:
+      0 - не определено;
+      1 - M1 Passenger vehicle;
+      2 - M2 Autobus ( <= 5 tonn);
+      3 - M3 Autobus ( > 5 tonn);
+      4 - N1 Truck ( <= 3.5 tonn);
+      5 - N2 Truck ( > 3.5 and <= 12 tonn);
+      6 - N3 Truck ( > 12 tonn);
+
+- Добавлено отображение IMEI модуля во вкладку "GSM" 0x0411
+- Исправлена работа счетчика экстренных вызовов во вкладке "Состояние"

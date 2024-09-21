@@ -1,0 +1,19 @@
+export
+APPZONE_LIB=$(APPZONE_DIR)\lib
+APPZONE_BIN=${eclipse_home}\\plugins\com.appzonec.plugin.prebuilt_$(SDK_VERSION)\prebuilt\bin
+OUTOBJDIR=obj
+LOGONSERVER= 
+TOOLCHAIN_PATH=C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\plugins\com.telit.appzonec.toolchain.plugin.gccARMv7_493_4.9.3
+APPZONE_DIR=${eclipse_home}\\plugins\com.telit.appzonec.plugin.le910cx_${FW_VERSION}_${PLUGIN_VERSION}
+FW_VERSION=25_21_XX0
+TELITBIN=era
+PLUGIN_VERSION=0.3.0.28
+SDK_VERSION=5.2.0
+APPZONE_MAKEFILE_COMMON=${eclipse_home}\\plugins\com.appzonec.plugin_$(SDK_VERSION)\makefiles
+AZ_STATIC_LIB=FALSE
+APPZONE_INC=$(APPZONE_DIR)\m2m_inc
+eclipse_home=C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse
+TOOLCHAIN_BIN=${eclipse_home}\\plugins\com.telit.appzonec.toolchain.plugin.gccARMv7_493_4.9.3\gcc-linaro-arm-linux-gnueabi/bin/
+AZ_BASE_MAKEFILE=az_makefile.mk
+APPZONE_MAKEFILE=$(APPZONE_DIR)\makefiles
+LIB_PATH=-L "${eclipse_home}\\plugins\com.telit.appzonec.toolchain.plugin.gccARMv7_493_4.9.3\gcc-linaro-arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/4.9.4" -L "${eclipse_home}\\plugins\com.telit.appzonec.toolchain.plugin.gccARMv7_493_4.9.3\gcc-linaro-arm-linux-gnueabi/lib" 

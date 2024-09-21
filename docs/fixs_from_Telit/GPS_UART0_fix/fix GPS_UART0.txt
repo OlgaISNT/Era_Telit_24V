@@ -1,0 +1,29 @@
+Дмитрий, добрый вечер.
+ 
+
+Как сообщили коллеги из Италии – проблема в toochain. После модификации последней – у Алексея Ваш пример запустился без ошибок (без доработки именно самого кода итальянцами):
+
+​Folder icon Era_GPS_UART0_problem_4
+https://telit365-my.sharepoint.com/:f:/g/personal/norman_argiolas_telit_com/EibWH2_jVQ1EiZwSgQTUn6EBFlea0tDRekffP4uGIbuwcw?email=d.kozenkov%40itelma.su&e=oodBvd
+ 
+
+Проблема заключается именно между прошивкой (бетой) и плагином.
+
+Ниже Вы можете скачать обновленный toolchain для Windows (sysroot.zip) для платформы модулей LE910Cx:
+
+​Folder icon LE910_25.21.002_M_AZSDK
+https://telit365-my.sharepoint.com/:f:/g/personal/norman_argiolas_telit_com/EtM8g6KCxJ9Hv9HNBXchoSMBxJ6E_W1-8hQjzyYfRTe2UQ?email=d.kozenkov%40itelma.su&e=LkVQUV
+
+Прямая ссылка на скачивание:
+https://drive.google.com/file/d/10eZBwH7-djcPtMiDFIjdMp-eWdvYXtet/view?usp=sharing
+ 
+Там же внутри – краткий гайд.
+In the main folder of the project, modify the Makefile
+comment the row
+SYSLIB=$(TOOLCHAIN_PATH)/gcc-linaro-arm-linux-gnueabi/sysroot
+and add
+SYSLIB=$(eclipse_home)/LE910Cx/25.21.002/sysroot
+
+
+И согласно скриншота нужно добавить в свойства проекта в Telit IDE две директории, чтобы анализатор кода не показывал ошибки
+

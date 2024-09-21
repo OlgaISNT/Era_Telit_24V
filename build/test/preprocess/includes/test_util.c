@@ -1,0 +1,4 @@
+---
+- utils/hdr/util.h
+- C:/Ruby26/lib/ruby/gems/2.6.0/gems/ceedling-0.31.1/vendor/unity/src/unity.h
+- build/test/mocks/mock_log.h

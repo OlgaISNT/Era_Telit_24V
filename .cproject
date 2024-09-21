@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.build.core.prefbase.toolchain.725691156">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.build.core.prefbase.toolchain.725691156" moduleId="org.eclipse.cdt.core.settings" name="Config">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="org.eclipse.cdt.build.core.prefbase.toolchain.725691156" name="Config" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="org.eclipse.cdt.build.core.prefbase.toolchain.725691156." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1017437072" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1017437072.1323156876" name=""/>
+							<builder arguments="-j " command="${eclipse_home}/../mingw_msys/msys/1.0/bin/make" id="org.eclipse.cdt.build.core.settings.default.builder.1591629041" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1301324728" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="org.eclipse.cdt.build.core.settings.holder.libpaths.1752663784" name="Library Paths" superClass="org.eclipse.cdt.build.core.settings.holder.libpaths" valueType="libPaths"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1914099185" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="org.eclipse.cdt.build.core.settings.holder.incpaths.1681151646" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath"/>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1910352807" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1899207166" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="org.eclipse.cdt.build.core.settings.holder.incpaths.238720234" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\plugins\com.telit.appzonec.plugin.le910cx_25_21_XX0_0.3.0.28\lib/gcc-linaro-arm-linux-gnueabi/sysroot/usr/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\plugins\com.telit.appzonec.plugin.le910cx_25_21_XX0_0.3.0.28\lib/gcc-linaro-arm-linux-gnueabi/sysroot/usr/include/m2mb&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1907829875" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.343135114" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="org.eclipse.cdt.build.core.settings.holder.incpaths.1686377897" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\LE910Cx\25.21.002\sysroot/usr/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\LE910Cx\25.21.002\sysroot/usr/include/m2mb&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\plugins\com.telit.appzonec.plugin.le910cx_25_21_XX0_0.3.0.28\lib/gcc-linaro-arm-linux-gnueabi/sysroot/usr/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\plugins\com.telit.appzonec.plugin.le910cx_25_21_XX0_0.3.0.28\lib/gcc-linaro-arm-linux-gnueabi/sysroot/usr/include/m2mb&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.110077264" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="era"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="hal"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="hdr"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="utils"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="DimsTT.null.1258034248" name="DimsTT"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.build.core.prefbase.toolchain.725691156">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Config">
+			<resource resourceType="PROJECT" workspacePath="/Era"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
